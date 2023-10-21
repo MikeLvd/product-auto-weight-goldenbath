@@ -1,2 +1,24 @@
 # product-auto-weight-goldenbath
 Automatically calculates and sets product weight based on dimensions in WooCommerce product admin. It also have a function that if the dimensions and weight fields are empty to prevent the user from publish the product. Its works for simple and variable products
+
+
+== Changelog ==
+
+= 1.0.4 =
+* Added support for simple and variable products.
+* Now it first check the dimensions of the parent product. 
+* If they are filled, then we can assume that all variations have the same dimensions
+* and we don't need to check each variation individually.
+* If the parent product's dimensions are not filled, then we should check each variation to ensure at least one variation has the dimensions filled.
+
+= 1.0.3 =
+* Added functionality to prevent users to publish the product if dimensions and weight fields are empty. The feature can be enabled/disabled on plugin settings
+
+= 1.0.2 =
+* Added divisor field to plugin settings, now the user can selelect a different value of 5000.
+
+= 1.0.1 =
+* Added more control to plugin settings.
+
+= 1.0.0 =
+* Initial release.
