@@ -3,7 +3,7 @@
  * Plugin Name: Product Auto Weight For Golden Bath
  * Plugin URI: https://goldenbath.gr/
  * Description: Automatically calculates and sets product weight based on dimensions in WooCommerce product admin. The user can change the Divisor per their needs. Default Value: 5000
- * Version: 1.2.2
+ * Version: 1.0.4
  * Author: Mike Lavdanitis
  * Author URI: https://goldenbath.gr/
  * Requires at least: 5.8
